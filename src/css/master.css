@@ -1,0 +1,402 @@
+body, html {
+  margin: 0;
+  font-family: acumin-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.loading {
+  position: absolute;
+  z-index: 11;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #FFF;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.loading img {
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+nav.mainNav {
+  width: 100%;
+  height: 55px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  box-shadow: 0 0 25px 5px #EEE;
+    z-index: 10;
+}
+
+nav.mainNav ul {
+  width: 80%;
+  margin: 12px auto;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+nav.mainNav ul li a img {
+  width: 30px;
+}
+
+.back {
+  position: fixed;
+  left: 20px;
+  top: 15px;
+  width: 40px;
+  z-index: 10;
+}
+
+.back img {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  height: calc(100vh - 55px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  z-index: 1;
+}
+
+.mapGrid {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.mapList {
+  width: 80%;
+  margin: 25px auto;
+}
+
+.mapList li {
+  font-size: 30px;
+  border-bottom: 1px solid #B59556;
+  float: left;
+  clear: none;
+  margin-top: 25px;
+  padding-bottom: 25px;
+  list-style: none;
+}
+
+.mapList li:last-child {
+  border-bottom: 0;
+}
+
+.priserContainer header {
+  width: 100%;
+  position: relative;
+}
+
+.priserContainer{
+  color: #494948;
+}
+
+.priserContainer header h1 {
+  color: #B59556;
+  position: relative;
+  top: 130px;
+  font-size: 50px;
+  margin-left: 8%;
+  font-family: acumin-pro-semi-condensed, sans-serif;
+}
+
+.priserContainer header img {
+  width: 75%;
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 80px;
+}
+
+.priserContainer .opening {
+  margin-top: 225px;
+}
+
+.priserContainer .opening img.clock {
+  width: 40px;
+  margin: 0 auto;
+  display: block;
+}
+
+.priserContainer .opening .infoHeading {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 10px auto 0 auto;
+}
+
+.priserContainer .opening .infoHeading h2 {
+  margin: 0 10px;
+}
+
+.priserContainer .opening .infoHeading .line {
+  width: 100%;
+  height: 1px;
+  position: relative;
+  top: 14px;
+  background-color: #B59556;
+}
+
+.priserContainer .opening h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.priserContainer .opening p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  width: 80%;
+  margin: 6px auto 0 auto;
+}
+
+
+
+
+.priserContainer header {
+  width: 100%;
+  position: relative;
+}
+.priserContainer header h1 {
+  color: #B59556;
+  position: relative;
+  top: 130px;
+  font-size: 50px;
+  margin-left: 8%;
+  font-family: acumin-pro-semi-condensed, sans-serif;
+}
+
+.priserContainer header img {
+  width: 75%;
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 80px;
+}
+
+.priserContainer .opening {
+  margin-top: 225px;
+}
+
+.priserContainer .opening img.clock {
+  width: 40px;
+  margin: 0 auto;
+  display: block;
+}
+
+.priserContainer .opening .infoHeading {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 10px auto 0 auto;
+}
+
+.priserContainer .opening .infoHeading h2 {
+  margin: 0 10px;
+}
+
+.priserContainer .opening .infoHeading .line {
+  width: 100%;
+  height: 1px;
+  position: relative;
+  top: 14px;
+  background-color: #B59556;
+}
+
+.priserContainer .opening h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.priserContainer .opening p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  width: 80%;
+  margin: 6px auto 0 auto;
+}
+
+.priserContainer .prices {
+  margin-top: 100px;
+}
+
+.priserContainer .prices img.price {
+  width: 40px;
+  margin: 0 auto;
+  display: block;
+}
+
+.priserContainer .prices .infoHeading {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 10px auto 0 auto;
+}
+
+.priserContainer .prices .infoHeading h2 {
+  margin: 0 10px;
+}
+
+.priserContainer .prices .infoHeading .line {
+  width: 100%;
+  height: 1px;
+  position: relative;
+  top: 14px;
+  background-color: #B59556;
+}
+
+.priserContainer .prices h2 {
+  text-align: center;
+  margin: 30px 0 25px 0;
+}
+
+.priserContainer .prices h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.priserContainer .prices p {
+  text-align: center;
+  width: 80%;
+  margin: 6px auto 0 auto;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.priserContainer footer {
+  margin-bottom: 80px;
+}
+
+.priserContainer footer hr {
+  border: 0;
+  width: 80%;
+  margin: 75px auto;
+  height: 1px;
+  background-color: #B59556;
+}
+
+.priserContainer footer h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.priserContainer footer a {
+  display: block;
+  text-align: center;
+  margin: 5px 0;
+  font-size: 18px;
+  text-decoration: none;
+  color: #494948;
+}
+
+.priserContainer .socialList {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 35px auto 10px auto;
+  padding: 0;
+}
+
+.priserContainer .socialList li {
+  margin: 0 15px;
+  list-style: none;
+
+}
+
+.priserContainer .socialList li img {
+  width: 100%;
+}
+
+
+
+
+#content {
+  font-family: acumin-pro,sans-serif; }
+#content figure.front {
+  width: 100%;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+#content figure.front:last-child{
+  margin-bottom: 100px;
+}
+
+#content figure.front img {
+  width: 75%;
+  margin: 10% 0 0 0; }
+#content figure.front figcaption {
+  width: 75%; }
+#content figure.front figcaption h2 {
+  font-family: acumin-pro-semi-condensed, sans-serif;
+  color: #B59556;
+  font-weight: 600;
+  font-size: 2em;
+  margin: 5px 0 5px 0; }
+
+#content figure.front figcaption p {
+  color: #494948;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -5px;}
+#content figure.person {
+  width: 100%;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+#content figure.person img {
+  width: 90%;
+  margin: 15% 0 0 0; }
+#content figure.person figcaption {
+  width: 80%; }
+#content figure.person figcaption h2 {
+  color: #B59556;
+  font-weight: 400;
+  font-size: 2.5em;
+  margin: -7% 0 0 0; }
+#content figure.person figcaption p {
+  color: #494948;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 75px;}
+
+#content figure.person figcaption p .uncial {
+  float: left;
+  font-size: 2.5em;
+  margin: -17px 3px 0 0;
+  position: relative;
+  top: 11px;
+  color: #B59556;
+  font-weight: 400; }

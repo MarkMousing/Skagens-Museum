@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Skagens Museum Forside</title>
+  <link rel="icon" href="/src/images/icons/192x192.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/src/images/paint/icon256px.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="https://use.typekit.net/lqe8fzx.css">
+  <link rel="stylesheet" href="/src/css/master.css">
+  <link rel="stylesheet" href="/src/css/app.css">
+
+
+
+
+</head>
+
+<body>
+
+<nav class="mainNav">
+  <ul>
+    <li><a href="index.html"><img src="src/images/paint/guldhjem.svg"></a></li>
+    <li><a href="maps.html"><img src="src/images/paint/kort.svg"></a></li>
+    <li><a href="artister.html"><img src="src/images/paint/kunstnere.svg"></a></li>
+    <li><a href="info.html"><img src="src/images/paint/info.svg"></a></li>
+  </ul>
+</nav>
+
+<div class="loading" onload="removeLoading()">
+  <img src="src/images/paint/logo.svg">
+</div>
+
+
+
+
+
+<section class="index-container">
+  <article class="card" id="pwa">
+
+
+          <video class="video" controls autoplay muted>
+            <source src="/src/video/ArtMuseumsofSkagen720p.mp4" type="video/mp4">
+          </video>
+
+    <br>
+
+    <nav class="IX-nav" id="nav"></nav>
+    <div id="content"></div>
+
+  </article>
+
+
+</section>
+
+
+<script src="src/js/fetch.js"></script>
+<script src="src/js/app.js"></script>
+<script src="src/js/artister/udstilling-fetch.js"></script>
+<script>
+  document.querySelector('#nav').addEventListener('click', function() {
+    document.querySelector('.video').style.display = "none";
+  })
+</script>
+
+<script src="src/js/loading.js"></script>
+</body>
+
+</html>

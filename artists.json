@@ -1,0 +1,62 @@
+[
+  {
+    "pagename": "Kunstnere", "content": [
+      {"lan": "dk", "title": "Kunstnere", "content": "<p>bla bla lba fegwggrgr</p>"}
+    ]
+  },
+
+  {
+    "pagename": "PS-Kroeyer-bio", "content": [
+      {"lan": "dk", "title": "Kroeyer-bio", "content": "<p>bla bla lba fegwggrgr</p>"}
+    ]
+  },
+
+  {
+    "pagename": "A-Ancher-bio", "content": [
+      {"lan": "dk", "title": "A-Ancher-bio", "content": "<p>bla bla lba fegwggrgr</p>"}
+    ]
+  },
+
+  {
+    "pagename": "Tuxen-bio", "content": [
+      {"lan": "dk", "title": "Tuxen-bio", "content": "<p>bla bla lba fegwggrgr</p>"}
+    ]
+  },
+
+  {
+    "pagename": "Bjorck-bio", "content": [
+      {"lan": "dk", "title": "Bjorck-bio", "content": "<p>bla bla lba fegwggrgr</p>"}
+    ]
+  },
+
+  {
+    "pagename": "Johansen-bio", "content": [
+      {"lan": "dk", "title": "Johansen-bio", "content": "<p>bla bla lba fegwggrgr</p>"}
+    ]
+  },
+
+  {
+    "pagename": "M-Ancher-bio", "content": [
+      {"lan": "dk", "title": "M-Ancher-bio", "content": "<p>bla bla lba fegwggrgr</p>"}
+    ]
+  },
+
+  {
+    "pagename": "Drachmann-bio", "content": [
+      {"lan": "dk", "title": "Drachmann-bio", "content": "<p>bla bla lba fegwggrgr</p>"}
+    ]
+  },
+
+  {
+    "pagename": "M-Kroeyer-bio", "content": [
+      {"lan": "dk", "title": "M-Kroeyer-bio", "content": "<p>bla bla lba fegwggrgr</p>"}
+    ]
+  },
+
+  {
+    "pagename": "Willumsen-bio", "content": [
+      {"lan": "dk", "title": "Willumsen-bio", "content": "<p>bla bla lba fegwggrgr</p>"}
+    ]
+  }
+
+]

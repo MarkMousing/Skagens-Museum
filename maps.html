@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="src/css/master.css">
+    <link rel="icon" href="/src/images/icons/192x192.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <nav class="mainNav">
+      <ul>
+        <li><a href="index.html"><img src="src/images/paint/hjem.svg"></a></li>
+        <li><a href="maps.html"><img src="src/images/paint/guldkort.svg"></a></li>
+        <li><a href="artister.html"><img src="src/images/paint/kunstnere.svg"></a></li>
+        <li><a href="info.html"><img src="src/images/paint/info.svg"></a></li>
+      </ul>
+    </nav>
+
+    <div class="back">
+        <a href="index.html"><img src="src/images/paint/pil.svg"></a>
+    </div>
+
+    <main>
+      <div class="mapGrid">
+        <div id="map"></div>
+        <ul class="mapList">
+          <li onclick="skagen()">Skagens museum</li>
+          <li onclick="anchor()">Anchers hus</li>
+          <li onclick="drachmann()">Drachmanns hus</li>
+        </ul>
+      </div>
+    </main>
+
+  <script src="src/js/goback.js"></script>
+  <script src="src/js/map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMutZFkZtcDIvzzc37aZNcQfztPEGlRdU&callback=initMap"></script>
+
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="src/css/master.css">
+    <link rel="stylesheet" href="src/css/special.css">
+      <link rel="icon" href="/src/images/icons/192x192.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <nav class="mainNav">
+      <ul>
+        <li><a href="index.html"><img src="src/images/paint/hjem.svg"></a></li>
+        <li><a href="maps.html"><img src="src/images/paint/kort.svg"></a></li>
+        <li><a href="artister.html"><img src="src/images/paint/kunstnere.svg"></a></li>
+        <li><a href="info.html"><img src="src/images/paint/info.svg"></a></li>
+      </ul>
+    </nav>
+
+    <!-- <div class="back">
+        <a href=""><img src="assets/images/pil.svg"></a>
+    </div> -->
+
+    <main id="jsonMain">
+            <figure onclick='showPerson("solong")' class="front">
+                <img src='src/images/paint/solong.jpg' alt='So long'>
+                <figcaption> 
+                    <h2>So long</h2> 
+                    <p>15.09.2018 - 30.12.2018 | Skagens Museum</p>
+                </figcaption>
+            </figure>
+
+            <figure onclick='showPerson("fokus")' class="front">
+                <img src='src/images/paint/fokus.jpg' alt='Fokus'>
+                <figcaption> 
+                    <h2>Fokus</h2> 
+                    <p>02.02.2017 - 28.12.2018 | Skagens Museum</p>
+                </figcaption>
+            </figure>
+
+            <figure onclick='showPerson("blackwhite")' class="front">
+                <img src='src/images/paint/sorthvid.jpg' alt='Sort hvid'>
+                <figcaption> 
+                    <h2>Sort/Hvid</h2> 
+                    <p>29.04.2016 - 30.11.2018 | Anchers Hus</p>
+                </figcaption>
+            </figure>
+    </main>
+
+
+    <script src="src/js/artister/udstilling-fetch.js"></script>
+
+  </body>
+</html>

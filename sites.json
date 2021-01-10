@@ -1,0 +1,35 @@
+[
+
+  {
+    "pagename": "Skagens-museum",
+    "content": [
+      {"lan": "dk", "title": "Skagens Museum",
+        "content": "<div class=\"back\"><a href=\"index.html\"><img src=\"src/images/paint/pil.svg\"></a></div><img class='img' src='src/images/paint/SkagenMuseum.jpg'></img><h1 class='mus-h1'>Skagens</h1><br><p class='mus-p'><span class='m-uncial'>S</span>kagens Museum blev stiftet i Brøndums spisesal den 20. oktober 1908. Apoteker Victor Christian Emanuel Klæbel, hotelejer Degn Brøndum og malerne Michael Ancher, P.S. Krøyer og Laurits Tuxen blev valgt ind i den første bestyrelse. Opgaven var at samle kunstværker af skagensmalerne og skaffe økonomiske midler til opførelsen af en museumsbygning.<br><br>Efter P.S. Krøyers død i 1909 blev hans bolig i Byfogedskoven taget i anvendelse som museum. I 1919 skænkede Degn Brøndum hotellets gamle have til Skagens Museum. Her påbegyndtes museumsbyggeriet i 1926 efter tegninger af arkitekten Ulrik Plesner. Byggeriet var finansieret af private og fonde, hvor de største bidragydere var Degn Brøndum, Laurits Tuxen og Ny Carlsbergfondet. Den nye museumsbygning blev indviet den 22. september 1928. Museets samling bestod på dette tidspunkt af ca. 325 kunstværker, mange af dem var gaver fra kunstnerne selv.</p>"}
+    ]
+  },
+
+  {
+    "pagename": "Anchers-hus",
+    "content": [
+      {"lan": "dk", "title": "Anchers Hus",
+        "content": "<div class=\"back\"><a href=\"index.html\"><img src=\"src/images/paint/pil.svg\"></a></div><img class='img' src='src/images/paint/anchersHus.jpg'></img><h1 class='mus-h1'>Anchers Hus</h1><br><p class='mus-p'><span class='m-uncial'>M</span>  ichael og Anna Anchers Hus blev stiftet i henhold til det testamente, som kunstner parrets datter Helga underskrev den 16.1.1961. Formålet var at åbne kunstnerhjemmet for publikum som et selvstændigt museum. Finansiering af istandsættelsen skulle ske ved salg af kunstværker, som ikke indgik i ophængningen. Efter Helga Anchers død den 18.3.1964 overgik kunstnerhjemmet og dets rige samlinger til Helga Anchers Fond, hvis første bestyrelse var højesteretssagfører E. Richter, ambassadør Georg Høst og direktør i Skagens Museum Jan Zibrandtsen. Museet åbnede for publikum 23.6.1967.<br><br>Siden stiftelsen har bestyrelsen haft et eller flere kunst- og museumsfaglige medlemmer som ansvarlige for museumsarbejdet. Jan Zibrandtsen inddrog straks i 1964 Nationalmuseet og Statens Museum for Kunst i at bevare kunstnerhjemmets autenticitet. Bygningen, indboet og de ophængte kunstværker blev konserveret, og genstandene blev sat tilbage på deres pladser. Som det er normen for et kunstner museum, består samlingerne af familiens omfattende skitse materiale, andre kunstværker, fotografier, dokumentation samlinger, dragter, breve, pyntegenstande, dækketøj, sølvtøj og personlige effekter.<br>I 1990 erhvervede museet den fredede naboejendom Saxilds Gaard, hvor der siden har været holdt skiftende udstillinger. I 1997 opførtes en bygning, der rummer et moderne maleri magasin, indrettet efter samme normer som på de statsanerkendte museer. Anchers Hus rummer ca. 250 værker, primært udført af Anna og Michael Ancher selv, men også malerier og tegninger udført af andre danske og internationale kunstnere i deres omgangskreds. Blandt de mange kulturhistoriske genstande er også kunstner møbler og japanske genstande.</p>"}
+    ]
+  },
+
+  {
+    "pagename": "Drachmanns-hus",
+    "content": [
+      {"lan": "dk", "title": "Drachmanns Hus",
+        "content": "<div class=\"back\"><a href=\"index.html\"><img src=\"src/images/paint/pil.svg\"></a></div><img class='img' src='src/images/paint/DrachmannsHus.jpg'></img><h1 class='mus-h1'>Drachmanns Hus</h1><br><p class='mus-p'><span class='m-uncial'>D</span>igteren og marinemaleren Holger Drachmann (1846-1908) købte i 1902 bager Høms hus på Hans Baghs Vej 21 i Skagen. Han ombyggede og nyindrettede boligen efter tegninger af P.S. Krøyer og forsynede huset med et stort atelier. I 1903 blev huset tilskødet Sofie ”Soffi” Elisabeth Drewsen, f. Lasson, der samme år blev gift med Holger Drachmann. Efter Holger Drachmanns død solgte hans enke hus med indbo i 1911 til ”Komitéen for Drachmanns Hus”. Handelen var betinget af, at huset blev opretholdt som museum for Holger Drachmann. ”Villa Pax” blev åbnet for publikum den 4. juli 1911. I 1916 stadfæstede kong Christian 10. fundatsen for ”Drachmanns Hus paa Skagen” og det dertil knyttede ”Holger Drachmanns Legat for Forfattere”. Om sommeren afholdes forskellige underholdningsarrangementer i Drachmanns Hus, hvor et publikum på maksimalt 40 personer bliver underholdt med anekdoter og musik fra Holger Drachmanns tid.</p>"}
+    ]
+  },
+
+  {
+    "pagename": "Saerudstilling",
+    "content": [
+      {"lan": "dk", "title": "Særudstilling",
+        "content": "<div class=\"back\"><a href=\"index.html\"><img src=\"src/images/paint/pil.svg\"></a></div><figure onclick='showPerson(\"solong\")' class=\"front\"><img src='src/images/paint/solong.jpg' alt='So long'><figcaption><h2>So long</h2><p>15.09.2018 - 30.12.2018 | Skagens Museum</p></figcaption></figure><figure onclick='showPerson(\"fokus\")' class=\"front\"><img src='src/images/paint/fokus.jpg' alt='Fokus'><figcaption><h2>Fokus</h2><p>02.02.2017 - 28.12.2018 | Skagens Museum</p></figcaption></figure><figure onclick='showPerson(\"blackwhite\")' class=\"front\"><img src='src/images/paint/sorthvid.jpg' alt='Sort hvid'><figcaption><h2>Sort/Hvid</h2><p>29.04.2016 - 30.11.2018 | Anchers Hus</p></figcaption></figure>"}
+    ]
+  }
+
+]

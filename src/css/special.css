@@ -1,0 +1,55 @@
+.content {
+  font-family: 'Roboto', sans-serif; }
+.content figure {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+.content figure.front {
+    margin-top: 50px; }
+.content figure img {
+      width: 75%;
+      margin: 10% 0 0 0; }
+.content figure figcaption {
+      width: 75%; }
+.content figure figcaption h2 {
+        color: #B59556;
+        font-weight: 400;
+        font-size: 2.5em;
+        padding: 1% 0; }
+.content figure figcaption p {
+        color: #494948;
+        font-weight: 300;
+        font-size: 0.9em; }
+.content figure.person {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+.content figure.person img {
+      width: 90%;
+      margin: 15% 0 0 0; }
+.content figure.person figcaption {
+      width: 80%; }
+.content figure.person figcaption h2 {
+        color: #B59556;
+        font-weight: 400;
+        font-size: 2.5em;
+        margin: -7% 0 0 0; }
+.content figure.person figcaption p {
+        color: #494948;
+        font-weight: 300;
+        font-size: 18px;
+        padding: 5% 0 0 0; }
+.content figure.person figcaption p .uncial {
+          float: left;
+          font-size: 2.5em;
+          margin: -11px 3px 0 0;
+          position: relative;
+          top: 7px;
+          color: #B59556;
+          font-weight: 400; }
+
+/*# sourceMappingURL=artists.css.map */
